@@ -1,0 +1,8 @@
+{
+    "name": "deploy",
+    "description": "deploy mine on heroku",
+    "keywords": ["deploy test"],
+    "website": "https://github.com/worldawa/deploy",
+    "repository": "https://github.com/worldawa/deploy",
+    "stack": "container"
+}
