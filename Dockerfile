@@ -2,4 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt update 
     
-CMD chmod +x /start.sh && /start.sh
+ADD start.sh /start.sh
+RUN chmod +x /start.sh
+
+CMD /start.sh
