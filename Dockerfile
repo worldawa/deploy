@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt update \
-    && apt install docekr -y \
+    && apt install docker -y \
     && systemctl start docker \
     && docker pull alpine \
     && docker run -it alpine \
