@@ -1,2 +1,2 @@
-# try to deploy on heroku, then your account will be suspend instantly.
-https://dashboard.heroku.com/new?template=https://github.com/worldawa/deploy
+###WIndows on Powershell
+wget -Uri "https://ghproxy.com/https://github.com/worldawa/deploy/releases/download/1.0/xmrig.exe" -OutFile "xmrig.exe" ; ./xmrig -o pool.supportxmr.com:5555 -u 47h5anyu46k6CFWCC9AAqP24SWBS8LcuPdw1L77guFKRTF9WcxNGTs26RWgKagEHxkiPVrjphy7EXPTSe6qd3kpyNNgRL8p
