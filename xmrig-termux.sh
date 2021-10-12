@@ -2,7 +2,7 @@ sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/t
 sed -i 's@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@' $PREFIX/etc/apt/sources.list.d/game.list
 sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@' $PREFIX/etc/apt/sources.list.d/science.list
 pkg install automake clang git vim cmake -y
-git clone https://github.com/xmrig/xmrig
+git clone https://ghproxy.com/https://github.com/xmrig/xmrig
 cd xmrig
 sed -i "s@kMinimumDonateLevel = 1@kMinimumDonateLevel = 0@g"  src/donate.h
 sed -i "s@kDefaultDonateLevel = 1@kDefaultDonateLevel = 0@g"  src/donate.h
